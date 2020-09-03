@@ -1,5 +1,5 @@
 import React, { Component } from 'react'; 
-import { Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Aux from '../Containers/UI/hoc';
 import Navbar from '../Containers/navbar';
@@ -13,6 +13,7 @@ class Layout extends Component {
 
   render () {
     let links = 
+    <Router>
       <Switch>
         <Route path="/about" exact component={About}/>
         <Route path="/projects/salarytool" exact component={SalaryTool}/>
@@ -23,6 +24,7 @@ class Layout extends Component {
 
 
       </Switch>
+    </Router>
     return (
       <Aux>
         <Navbar />
