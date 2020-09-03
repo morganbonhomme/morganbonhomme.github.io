@@ -19,10 +19,10 @@ class Layout extends Component {
     let links = 
     <Router history={history}>
       <Switch>
-        <Route path="/#/about" exact component={About}/>
-        <Route path="/#/projects/salarytool" exact component={SalaryTool}/>
-        <Route path="/#/projects" exact component={Projects}/>
-        <Route path="/#/contact" exact component={Contact}/>
+        <Route path="/about" exact component={About}/>
+        <Route path="/projects/salarytool" exact component={SalaryTool}/>
+        <Route path="/projects" exact component={Projects}/>
+        <Route path="/contact" exact component={Contact}/>
 
         <Route path="/" component={About}/>
 
