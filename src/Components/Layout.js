@@ -1,5 +1,6 @@
 import React, { Component } from 'react'; 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { createBrowserHistory } from "history";
 
 import Aux from '../Containers/UI/hoc';
 import Navbar from '../Containers/navbar';
@@ -8,12 +9,15 @@ import Projects from '../Containers/projects';
 import SalaryTool from '../Containers/salarytool';
 import Contact from '../Containers/contact';
 
+const history = createBrowserHistory();
+
 
 class Layout extends Component {
+  
 
   render () {
     let links = 
-    <Router basename='/'>
+    <Router history={history}>
       <Switch>
         <Route path="/about" exact component={About}/>
         <Route path="/projects/salarytool" exact component={SalaryTool}/>
