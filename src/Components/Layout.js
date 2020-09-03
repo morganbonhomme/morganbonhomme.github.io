@@ -13,7 +13,7 @@ class Layout extends Component {
 
   render () {
     let links = 
-    <Router>
+    <Router basename='/'>
       <Switch>
         <Route path="/about" exact component={About}/>
         <Route path="/projects/salarytool" exact component={SalaryTool}/>
