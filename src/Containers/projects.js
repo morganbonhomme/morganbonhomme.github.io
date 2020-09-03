@@ -24,7 +24,7 @@ const project = () => {
         <span class="badge bg-darkblue text-white mx-2 mb-2">Bootstrap</span>
         <p className='font18 fontregular  mt-2 mb-4 text-justify'> BasicGames defines its employees' compensation following the Gitlab compensation model. They needed an internal tool to display this simulator to all employees and to allow managers to have an overview of their team compensation.
         </p>
-        <a href='/projects/salarytool' className='viewproject font18 font600 rounded' > View full project → </a> 
+        <a href='/#/projects/salarytool' className='viewproject font18 font600 rounded' > View full project → </a> 
       </div>
       <div className="col-md-6 col-12 text-center">
         <object type="image/svg+xml" className="height34vh my-5 img-fluid" data={salarysimu}>
