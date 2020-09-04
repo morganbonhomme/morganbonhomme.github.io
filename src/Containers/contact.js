@@ -9,7 +9,7 @@ const contact = () => {
 return (
 
   
-  <div className="row mt-5">
+  <div className="row mt-5 pt-5">
 
 <div className="col-12 mb-4">
         <img src={idPicture} className="mx-auto mt-5 d-block size20vh rounded-circle img-thumbnail" alt="idpic"/>

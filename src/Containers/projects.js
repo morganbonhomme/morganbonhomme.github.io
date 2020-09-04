@@ -11,10 +11,12 @@ import secretblogdemo from '../assets/secretblogdemo.png'
 
 const project = () => {
   return (
-  <div className="container">
+
+  
+  <div className="container pt-5">
     <div className="row bg-egg mt-4 pl-3 rounded">
       <div className="col-md-6 col-12">
-        <p className='font30 font600 mt-4 mb-2'> Basic Games </p>
+        <p className='font30 font600 mt-4 mb-2'> BasicGames </p>
         <span class="badge bg-orange text-white mr-2">NodeJS</span>
         <span class="badge bg-orange text-white mx-2">Express</span>
         <span class="badge bg-orange text-white mx-2">Firestore</span>
