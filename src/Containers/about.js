@@ -34,7 +34,7 @@ const about = () => {
         </div>
         <div className="col-12 mt-5">
           <div className='text-center'>  
-          <a href='/projects' className='viewprojects font24 font600 rounded' > VIEW PROJECTS </a> 
+          <a href='/#/projects' className='viewprojects font24 font600 rounded' > VIEW PROJECTS </a> 
           </div>
         </div>
 
